@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #157071;
+  background: linear-gradient(
+    0deg,
+    rgba(21, 112, 113, 0.7310573887758228) 5%,
+    rgba(4, 132, 134, 0.7310573887758228) 12%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
